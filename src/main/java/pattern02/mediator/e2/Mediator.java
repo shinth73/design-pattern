@@ -1,5 +1,9 @@
 package pattern02.mediator.e2;
 
+
+// 의존성 역전 원칙에 따라 하위 레벨이 Mediator Concrete class를 직접 참조 하지 않도록 수정하자
+// 모든 코드중복을 제거하는 방향으로 진행하면 자동적으롤 DIP 를 적용 가능 하다
+
 public class Mediator {
     private ListBox listBox;
     private TextBox textBox;
